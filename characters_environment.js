@@ -49,9 +49,14 @@ var gameConfig={
 /*=====  End of Variables  ======*/
 
 
-/*====================================
-=            Game Status             =
-====================================*/
+noseX = "";
+noseY = "";
+GameStatus = "";
+
+function StartGame(){
+  GameStatus = "start";
+  document.getElementById("status").innerHTML = "Game is Loading";
+}
 
 function game(){
 
