@@ -22,7 +22,7 @@ function modelLoaded(){
 	console.log('Model Loaded!');
 }
 
-function gotPoses()
+function gotPoses(results)
 {
 	if(results.length > 0)
 	{
